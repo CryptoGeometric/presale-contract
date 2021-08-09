@@ -1,0 +1,102 @@
+{
+  "openZeppelin": {
+    "assets": [
+      {
+        "id": "capperrole",
+        "name": "access/roles/CapperRole.sol",
+        "hash": "2b239c1f8c3132ca416cad746c04fd4ce973b609",
+        "type": "abstractContract",
+        "dependencies": [
+          "context",
+          "roles"
+        ]
+      },
+      {
+        "id": "context",
+        "name": "GSN/Context.sol",
+        "hash": "107729583750206885773cee54febb5a1d73fd0e",
+        "type": "abstractContract"
+      },
+      {
+        "id": "roles",
+        "name": "access/Roles.sol",
+        "hash": "5f3eff6aeede298f88aa400967d75f993b2c7e56",
+        "type": "library"
+      },
+      {
+        "id": "minterrole",
+        "name": "access/roles/MinterRole.sol",
+        "hash": "f881e3a739890aea9e22b5750002e742cf6c74de",
+        "type": "abstractContract",
+        "dependencies": [
+          "context",
+          "roles"
+        ]
+      },
+      {
+        "id": "pauserrole",
+        "name": "access/roles/PauserRole.sol",
+        "hash": "6ad238402b4fe6f14d065a94880650a75a7012be",
+        "type": "abstractContract",
+        "dependencies": [
+          "context",
+          "roles"
+        ]
+      },
+      {
+        "id": "signerrole",
+        "name": "access/roles/SignerRole.sol",
+        "hash": "50535beadf9286a2018db6ee4320a1cee24b926c",
+        "type": "abstractContract",
+        "dependencies": [
+          "context",
+          "roles"
+        ]
+      },
+      {
+        "id": "whitelistadminrole",
+        "name": "access/roles/WhitelistAdminRole.sol",
+        "hash": "b26f4ed6be2dd52439cf4b5211f7bad8c1af71af",
+        "type": "abstractContract",
+        "dependencies": [
+          "context",
+          "roles"
+        ]
+      },
+      {
+        "id": "whitelistedrole",
+        "name": "access/roles/WhitelistedRole.sol",
+        "hash": "5d749bfd35dfd002df2084636be84f631f531ed5",
+        "type": "contract",
+        "dependencies": [
+          "context",
+          "roles",
+          "whitelistadminrole"
+        ]
+      },
+      {
+        "id": "ownable",
+        "name": "ownership/Ownable.sol",
+        "hash": "cd9c061d0b65a019db2b0ebc442a588308baa03a",
+        "type": "abstractContract",
+        "dependencies": [
+          "context"
+        ]
+      },
+      {
+        "id": "secondary",
+        "name": "ownership/Secondary.sol",
+        "hash": "cc474d43e7185ff153c2bf3cce68f65d1174fab4",
+        "type": "abstractContract",
+        "dependencies": [
+          "context"
+        ]
+      }
+    ],
+    "version": "2.5.0",
+    "categories": [
+      "ownership",
+      "access"
+    ]
+  }
+}
