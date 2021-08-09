@@ -1,1 +1,1 @@
-# tokenERC20
+# Geometry Coin and Presale contracts
