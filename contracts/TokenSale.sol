@@ -18,7 +18,7 @@ contract TokenSale is ReentrancyGuard, Ownable {
     uint constant public TOKEN_LISTING_PRICE = 300 ether;
     uint constant public LIQUIDITY_PERCENT = 50;
     uint constant public HARD_CAP = 400 ether;
-    uint constant public SOFT_CAP = 0.2 ether;//40
+    uint constant public SOFT_CAP = 40 ether;
     uint constant public CONTRIBUTION_MIN = 0.1 ether;
     uint constant public CONTRIBUTION_MAX = 10 ether;
     
